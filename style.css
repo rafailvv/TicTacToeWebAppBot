@@ -2,15 +2,17 @@ h2 {
 	text-align: center;
 }
 .inner {
-	width: 50px;
-	height: 50px;
-	font-size: 20px;
+	width: 160px;
+	height: 100px;
+	font-size: 50px;
 	line-height: 50px;
 	text-align: center;
 	text-transform: uppercase;
 	border: 1px solid #333;
 	margin: 5px;
 	cursor: pointer;
+	background-color: white;
+	padding-top: 50px;
 
 	box-shadow: 3px 4px 1px 2px rgba(1,1,1, 0.1);
 	text-shadow: 2px 3px  1px rgba(1,1,1, 0.3);
@@ -24,27 +26,29 @@ table {
 	display: none;
 	text-align: center;
 	padding-top: 20px;
-	font-size: 20px;
+	font-size: 30px;
 }
 #win_block .again{
 	font-weight: bold;
 	cursor: pointer;
 	color: #369;
 	border-bottom: 1px solid #369;
+	font-size: 30px;
 }
 #win_block .again:hover{
 	border-color: transparent;
+	font-size: 30px;
 	
 }
 
 
 #game {
+	padding-top: 150px;
 	position: relative;
 }
 #game .table{
 	/*border: 1px solid red;*/
 	display: table;
-	
 	margin: 0 auto;
 	position: relative;
 }

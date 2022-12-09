@@ -53,11 +53,11 @@ function drawSym(item, sym = user_sym){
 
 
 	if (winner == user_sym) {
-		win_text.innerHTML = "Вы выиграли!";
+		win_text.innerHTML = "Вы выиграли!<br>";
 		win_text.style.color = "green";
 		winning.style.backgroundColor = "rgba(0,200,0, 0.5)";
 	}else if (winner == comp_sym) {
-		win_text.innerHTML = "Выиграл компьютер! Попоробуйте еще раз!";
+		win_text.innerHTML = "Выиграл компьютер!<br>Попоробуйте еще раз!<br>";
 		win_text.style.color = "red";
 		winning.style.backgroundColor = "rgba(200,0,0, 0.5)";
 	}
@@ -154,7 +154,7 @@ function autoDrawing(){
 
 	if (!ckeckFreeSpace()) {
 		
-		win_text.innerHTML = "Выиграла ничья! ";
+		win_text.innerHTML = "Ничья!<br>";
 		win_text.style.color = "blue";
 		winning.style.display = "block";
 		winning.style.backgroundColor = "rgba(0,0,200, 0.5)";
