@@ -2,8 +2,8 @@ h2 {
 	text-align: center;
 }
 .inner {
-	width: 160px;
-	height: 100px;
+	width: 200px;
+	height: 120px;
 	font-size: 100px;
 	line-height: 50px;
 	text-align: center;
@@ -12,7 +12,7 @@ h2 {
 	margin: 10px;
 	cursor: pointer;
 	background-color: white;
-	padding-top: 50px;
+	padding-top: 70px;
 
 	box-shadow: 8px 7px 3px 2px rgba(1,1,1, 0.1);
 	text-shadow: 2px 3px  1px rgba(1,1,1, 0.3);
