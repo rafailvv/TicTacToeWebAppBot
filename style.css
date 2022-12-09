@@ -2,19 +2,19 @@ h2 {
 	text-align: center;
 }
 .inner {
-	width: 160px;
-	height: 100px;
-	font-size: 50px;
+	width: 360px;
+	height: 200px;
+	font-size: 200px;
 	line-height: 50px;
 	text-align: center;
 	text-transform: uppercase;
 	border: 1px solid #333;
-	margin: 5px;
+	margin: 10px;
 	cursor: pointer;
 	background-color: white;
-	padding-top: 50px;
+	padding-top: 150px;
 
-	box-shadow: 3px 4px 1px 2px rgba(1,1,1, 0.1);
+	box-shadow: 8px 7px 3px 2px rgba(1,1,1, 0.1);
 	text-shadow: 2px 3px  1px rgba(1,1,1, 0.3);
 	user-select: none;
 }
@@ -26,18 +26,18 @@ table {
 	display: none;
 	text-align: center;
 	padding-top: 20px;
-	font-size: 30px;
+	font-size: 80px;
 }
 #win_block .again{
 	font-weight: bold;
 	cursor: pointer;
 	color: #369;
 	border-bottom: 1px solid #369;
-	font-size: 30px;
+	font-size: 80px;
 }
 #win_block .again:hover{
 	border-color: transparent;
-	font-size: 30px;
+	font-size: 80px;
 	
 }
 
